@@ -2,5 +2,5 @@
     <p>{{ $todo->name }}</p>
     <p>{{ $todo->created_at }}</p>
     <button>Edit</button>
-    <button>Delete</button>
+    <button wire:click="delete({{ $todo->id }})">Delete</button>
 </div>
