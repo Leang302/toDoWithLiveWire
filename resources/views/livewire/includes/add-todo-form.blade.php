@@ -1,4 +1,5 @@
 <div>
+    <div class="block-animation" wire:loading.delay.longest wire:target="name"></div>
     <h2>Todo list</h2>
     <h4>+Todo</h4>
 
@@ -12,5 +13,6 @@
             {{ session('success') }}
         @endsession
     </form>
+
 
 </div>

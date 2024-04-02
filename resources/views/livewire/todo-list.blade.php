@@ -7,4 +7,5 @@
     @foreach ($todos as $todo)
         @include('livewire.includes.todo-list-card')
     @endforeach
+    {{ $todos->links() }}
 </div>

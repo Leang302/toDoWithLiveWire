@@ -12,11 +12,13 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
+    <link rel="stylesheet" href="{{ asset('assets/style/style.css') }}">
 
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-    @livewire('todo-list')
+
+@livewire('todo-list')
 </body>
 
 </html>
